@@ -34,10 +34,10 @@ let hours = 1;
 console.log(`${hours} hours = ${hourToSec(hours)} Seconds`);
 
 
-let str1 = "string 1 "
-let str2 = "string 2"
+let str1 = "string 1 ";
+let str2 = "string 2";
 
-console.log(str1.concat(str2))
+console.log(str1.concat(str2));
 
 
 let bill = 10.25 + 3.99 + 7.15;
