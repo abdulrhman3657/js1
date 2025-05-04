@@ -5,7 +5,10 @@ function rec(x, y){
     return x * y;
 }
 
-console.log("The area of the rectangle is:", rec(5, 5));
+let higth = 5
+let width = 5
+
+console.log("The area of the rectangle is:", rec(higth, width));
 
 function temp(c){
 
@@ -14,7 +17,9 @@ function temp(c){
     return f;
 }
 
-console.log("themp in Fahrenheit is:", temp(5));
+let Fahrenheit = 5;
+
+console.log("themp in Fahrenheit is:", temp(Fahrenheit));
 
 
 function hourToSec(h){
@@ -24,7 +29,9 @@ function hourToSec(h){
     return m;
 }
 
-console.log(`${1} hours = ${hourToSec(5)} Seconds`);
+let hours = 1;
+
+console.log(`${hours} hours = ${hourToSec(hours)} Seconds`);
 
 
 let str1 = "string 1 "
